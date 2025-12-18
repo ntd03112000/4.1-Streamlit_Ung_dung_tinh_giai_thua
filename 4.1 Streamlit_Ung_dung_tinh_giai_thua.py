@@ -1,4 +1,4 @@
-# Edit Cònfigurations --> streamlit.exe --> ở phần Run ngay tại script
+# Edit Configurations --> streamlit.exe --> ở phần Run ngay tại script
 #                                        --> C:/Users/dung/Desktop/AIO/.venv/Scripts/streamlit.exe
 #                                        --> dòng dưới run "4.1 Streamlit_Ung_dung_tinh_giai_thua.py"(tức tên file python hiện tại)
 # chuyển qua streamlit.exe thay vì Current File
@@ -22,3 +22,4 @@ number = st.number_input("Nhập số:", min_value=1, step=1)
 Ket_qua = Tinh_giai_thua(number)
 if st.button("Kết quả"):
     st.write(f"Kết quả với phép tính {number}! là: ", Ket_qua)
+
